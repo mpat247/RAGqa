@@ -14,13 +14,6 @@ A Retrieval-Augmented Generation (RAG) system that answers questions from a larg
 3. **Indexing**: FAISS vector database for fast similarity search
 4. **QA**: RoBERTa model extracts answers from retrieved chunks
 
-## Key Results
-
-- **F1 Score**: 0.4578 average token-level F1
-- **Corpus Size**: 91,561 processed document chunks
-- **Retrieval**: Top-50 chunks per query for comprehensive coverage
-- **Performance**: Efficient batch processing with memory optimization
-
 ## Project Structure
 
 ```
